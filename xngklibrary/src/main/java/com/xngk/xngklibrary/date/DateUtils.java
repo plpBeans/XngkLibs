@@ -59,6 +59,10 @@ public class DateUtils {
         return simpleDateFormat.format(date);
     }
 
+    public static long getSystemcurrentTimeMillis(){
+        return System.currentTimeMillis();
+    }
+
     /**
      * 字符串转时间
      *
